@@ -1,0 +1,20 @@
+.searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.searchbox input {
+    padding: 7px 30px 7px 10px;
+    width: 20%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.searchbox .icon {
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+}

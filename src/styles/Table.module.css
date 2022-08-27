@@ -1,0 +1,27 @@
+.basicTable {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.basicTable td,
+.basicTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.basicTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.basicTable tr:hover {
+    background-color: #ddd;
+}
+
+.basicTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #00bcd4;
+    color: white;
+}
